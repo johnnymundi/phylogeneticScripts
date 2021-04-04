@@ -8,6 +8,6 @@ To use it, make sure that Python is installed and on the CMD, digit:
 
 python get_fasta_from_Genomes.py genomefile.fna blastresultfile.txt outputfile.txt
 
-The following formats are facultative.
+File formats are facultative.
 
 Enjoy
