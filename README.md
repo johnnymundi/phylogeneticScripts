@@ -1,19 +1,37 @@
-# phylogeneticScripts
+## phylogeneticScripts
 
-# get_fasta_from_Genomes.py 
+Simples *scripts* para facilitar a vida de quem trabalha com muitas sequências gênicas
 
-A script that you can get fasta sequences from Blast results format.
+É composto por:
 
-To use it, make sure that Python is installed and on the CMD, digit:
+### get_fasta_from_Genomes.py 
 
-python get_fasta_from_Genomes.py genomefile.fna blastresultfile.txt outputfile.txt
+Usando o resultado de um BLAST em .txt com formatação default (-outfmt "6), é possível extrair do genoma correspondente .fna as sequências
+
+Para usar, certifique-se de que tenha Python instalado e digite no terminal:
+
+python get_fasta_from_Genomes.py genoma.fna resultadoBLAST.txt escolha_um_nome_para_output.fas
 
 
-# criaNumerosFasta.py
+### criaNumerosFasta.py
 
-Creates a fasta file with a certain number of sequences, but without any sequences on it.
+Cria um arquivo .fas simples com a quantidade de sequências desejadas em ordem crescente. Exemplo:
+- Digite a quantidade de sequências: 10
+- Digite o nome do output: sequencias.fas
+
+Resultado: um arquivo .fas com 10 vagas para sequências com numeração:
+>1
+
+>2
+
+>3
+.
+.
+.
+>10
 
 
-File formats are facultative.
+
+
 
 Enjoy
